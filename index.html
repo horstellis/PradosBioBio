@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+
+<head>
+    <title>Prados BioBio - Los Angeles - Chile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#1b5e20">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="Title" content="Prados del BioBio - Los Angeles">
+    <meta name="description" content="Prados del BioBio provee de pasto en rollo para todo tipo de proyectos">
+    <meta>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+    <link type="text/css" rel="stylesheet" href="css/sweetalert.css" media="screen,projection">
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="apple-touch-icon-precomposed" href="img/logo.png">
+</head>
+
+<body class="grey lighten-3">
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper green darken-4 flat">
+                    <a href="#!" class="brand-logo left hide-on-small-only"><img src="img/logo.png"></a>
+                    <a href="#!" class="brand-logo center hide-on-med-and-up"><img src="img/logo.png"></a>
+                    <div class="brand-logo center hide-on-small-only">Prados del BioBio</div>
+                    <a href="#" data-activates="menu" class="button-collapse right"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down section">
+                        <li><a class="waves-effect waves-light" href="#inicio">Inicio</a></li>
+                        <li><a class="waves-effect waves-light" href="#galeria">Galeria</a></li>
+                        <li><a class="waves-effect waves-light" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <nav class="ocultar">
+            <ul id="menu" class="side-nav section">
+                <li><a class="waves-effect waves-light" href="#inicio">Inicio</a></li>
+                <li><a id="abrirGaleria" class="waves-effect waves-light" href="#">Galeria</a></li>
+                <li><a class="waves-effect waves-light" href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/para03.jpg" alt=""></div>
+        </div>
+        <div id="inicio" class="section scrollspy">
+            <div class="row container">
+                <div class="col s12">
+                    <h4 class="header">Prados BioBio - Los Angeles</h4>
+                    <p>
+                        Nos especializamos en la venta de Pasto de Alto tráfico en Rollos, para su fácil instalación.
+                    </p>
+                </div>
+                <div class="col l7 s12">
+                    <div id="producto" class="card-panel">
+                        <h5>Descripción del producto</h5>
+                    </div>
+                </div>
+                <div class="col l5 s12">
+                    <div id="facebook" class="card-panel">
+                        <h5 class="black-text">Ultimas publicaciones en facebook</h5>
+                        <div class="center-align">
+                            <div class="fb-page" data-href="https://www.facebook.com/pradosbiobio/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
+                                data-hide-cover="false" data-show-facepile="false">
+                                <blockquote cite="https://www.facebook.com/pradosbiobio/" class="fb-xfbml-parse-ignore">
+                                    <a href="https://www.facebook.com/pradosbiobio/">Prados del Biobio</a></blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/img04.jpg" alt=""></div>
+        </div>
+        <div id="contacto" class="section scrollspy">
+            <div class="row container">
+                <h4 class="header">Contactanos</h4>
+                <div class="col l6 s12">
+                    <h5>¿Donde estamos?</h5>
+                    <div class="video-container">
+                        <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2195.0022678501564!2d-72.24817081769237!3d-37.52124832879755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2s!4v1474383709577"
+                            allowfullscreen></iframe>
+                    </div>
+                    <address>
+                        <strong>Prados Biobío Los Angeles</strong><br /> Felipe Berndt Guzmán<br /> Km. 7,5 Camino a Santa
+                        Bárbara
+                        <br /> Los Angeles, Chile<br /> Teléfono: <a href="tel:+56432549053">+56432549053</a><br /> Celular:
+                        <a href="tel:+56994719149">+56994719149</a><br />
+                    </address>
+                </div>
+                <form class="col l6 s12" id="frm_contacto" novalidate="novalidate">
+                    <h5>¿Consultas?</h5>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">face</i>
+                            <input type="text" id="nombre" name="nombre" data-error=".errorNombre">
+                            <div class="errorNombre"></div>
+                            <label for="nombre">Ingresa tu nombre</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">phone</i>
+                            <input type="number" id="numero" name="numero" data-error=".errorNumero">
+                            <div class="errorNumero"></div>
+                            <label for="numero">Ingresa tu telefono</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">mail_outline</i>
+                            <input type="text" id="correo" name="correo" data-error=".errorCorreo">
+                            <div class="errorCorreo"></div>
+                            <label for="correo">Ingresa tu correo</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">message</i>
+                            <textarea id="mensaje" name="mensaje" class="materialize-textarea validate" data-length="500" data-error=".errorMensaje"></textarea>
+                            <div class="errorMensaje"></div>
+                            <label for="txtMensaje">Indica tu consulta</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 center">
+                            <button class="btn waves-effect waves-light green darken-4" type="button" id="enviarContacto">
+                                    <i class="material-icons">send</i> Enviar
+                                </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Seccion para modales  -->
+        <div id="galeria" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h5>Galeria</h5>
+                    </div>
+                    <div class="col l3 m4 s6">
+                        <img class="responsive-img materialboxed" src="img/img02.jpg">
+                    </div>
+                    <div class="col l3 m4 s6">
+                        <img class="responsive-img materialboxed" src="img/img03.jpg">
+                    </div>
+                    <div class="col l3 m4 s6">
+                        <img class="responsive-img materialboxed" src="img/img08.jpg">
+                    </div>
+                    <div class="col l3 m4 s6">
+                        <img class="responsive-img materialboxed" src="img/img06.jpg">
+                    </div>
+                    <div class="col l3 m4 s6">
+                        <img class="responsive-img materialboxed" src="img/img09.jpg">
+                    </div>
+                    <div class="col l3 m4 s6">
+                        <img class="responsive-img materialboxed" src="img/img10.jpg">
+                    </div>
+                    <div class="col l3 m4 s6">
+                        <img class="responsive-img materialboxed" src="img/img11.jpg">
+                    </div>
+                    <div class="col l3 m4 s6">
+                        <img class="responsive-img materialboxed" src="img/img12.jpg">
+                    </div>
+                    <div class="col l3 m4 s6">
+                        <img class="responsive-img materialboxed" src="img/img13.jpg">
+                    </div>
+                    <div class="col l3 m4 s6">
+                        <img class="responsive-img materialboxed" src="img/img14.jpg">
+                    </div>
+                    <div class="col l3 m4 s6">
+                        <img class="responsive-img materialboxed" src="img/img16.jpg">
+                    </div>
+                    <div class="col l3 m4 s6">
+                        <img class="responsive-img materialboxed" src="img/img17.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Salir</a>
+            </div>
+        </div>
+        <div id="carga" class="modal">
+            <div class="modal-content center-align">
+                <img class="responsive-img" src="img/cargando.gif">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-copyright green darken-4">
+            <div class="container center">
+                © 2017 Sitio Web desarrollado por 
+                <a class="white-text" href="http://www.horstellis.cl"><strong>Horst Berndt</strong></a>
+            </div>
+        </div>
+    </footer>
+</body>
+<div id="fb-root"></div>
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9&appId=1711971195771307";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/jquery_aditional.js"></script>
+<script type="text/javascript" src="js/sweetalert.min.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+
+</html>
